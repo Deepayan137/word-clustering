@@ -1,10 +1,15 @@
 # word-clustering
 This repository contains various clustering algorithms and their performance on Indic language  words
 
-
+## Affinity propagation 
 ## usage
 ```bash 
 python af_prop.py -f text_file
+```
+
+## Local Sensitive Hashing For word clustering
+```bash 
+python lsh.py  text_file
 ```
 ## input
 
@@ -15,3 +20,5 @@ for your reference.
 
 code generates a scatter plot showing all the cluster centers with their respective clusters and a tetxt file 
 containing all the words belonging to each cluster. 
+
+
